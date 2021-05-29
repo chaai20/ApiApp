@@ -24,7 +24,8 @@
             app:layout_constraintDimensionRatio="1"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="ContentDescription" />
 
         <TextView
             android:id="@+id/character_view_item_characterName"
@@ -40,7 +41,8 @@
             android:maxLines="1"
             android:text="AAAAAA"
             android:layout_marginBottom="5dp"
-            android:layout_marginTop="5dp"/>
+            android:layout_marginTop="5dp"
+            tools:ignore="HardcodedText" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

@@ -37,7 +37,10 @@ object AppModule {
 
     @Provides
     fun provideHttpLoginInterceptor() : HttpLoggingInterceptor {
-        return HttpLoggingInterceptor().setLevel(HttpLoggingInterceptor.Level.BASIC)
+        val httpLoggingInterceptor = HttpLoggingInterceptor()
+        return httpLoggingInterceptor.apply {
+            httpLoggingInterceptor.level = HttpLoggingInterceptor.Level.BASIC
+        }
     }
 
     @Provides
