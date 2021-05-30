@@ -6,7 +6,9 @@ Fait :
 - Ecran avec le détail d’un élément.
 - Appel WebService à une API Rest.
 - Stockage de données en cache
+- Affichage SplashScreen
 - Architecture : MVVM
 - Datalive (sql)
 - HILT
 - Glide
+- Dagger
