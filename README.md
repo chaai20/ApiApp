@@ -14,6 +14,6 @@ Fait :
 - Dagger
 
 Screenshots :
-- Voir dossier au même nom pour détails
+- Voir dossier au même nom pour afficher les différentes
 
 Bonne lecture !
